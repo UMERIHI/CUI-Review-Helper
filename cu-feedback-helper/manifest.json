@@ -5,11 +5,11 @@
   "description": "Auto-fill teacher or course feedback on CUOnline.",
   "permissions": ["activeTab"],
   "host_permissions": [
-    "https://cuonline.cuilahore.edu.pk:8091/*"
+    "https://lhr-sis.comsats.edu.pk/*"
   ],
   "content_scripts": [
     {
-      "matches": ["https://cuonline.cuilahore.edu.pk:8091/Feedback/Survey/*"],
+      "matches": ["https://lhr-sis.comsats.edu.pk/Feedback/Survey/*"],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
